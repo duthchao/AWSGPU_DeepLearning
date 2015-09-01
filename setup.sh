@@ -1,10 +1,8 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
-sudo apt-get -y install make python-dev python-setuptools libblas-dev gfortran g++ python-pip python-numpy python-scipy liblapack-dev
+sudo apt-get -y install make python-dev python-setuptools libblas-dev gfortran g++ liblapack-dev
 sudo apt-get install unzip
-sudo pip install ipython nose
-sudo pip install pandas
 #apt-get install nvidia-cuda-toolkit
 #sudo pip install --upgrade git+git://github.com/Theano/Theano.git
 #sudo pip install --upgrade theano
