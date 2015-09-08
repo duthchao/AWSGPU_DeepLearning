@@ -1,8 +1,15 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
-sudo apt-get -y install make python-dev python-setuptools libblas-dev gfortran g++ liblapack-dev
-sudo apt-get install unzip
+sudo apt-get -y install make  gfortran g++ 
+curl -O https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda3-2.3.0-Linux-x86_64.sh
+chmod +x Anaconda3-2.3.0-Linux-x86_64.sh
+./Anaconda3-2.3.0-Linux-x86_64.sh
+#sudo vim .profile
+#export PATH="anaconda3/bin:$PATH"
+#conda create -n python2 python=2.7 anaconda
+#source activate python2
+#source deactivate
 #apt-get install nvidia-cuda-toolkit
 #sudo pip install --upgrade git+git://github.com/Theano/Theano.git
 #sudo pip install --upgrade theano
